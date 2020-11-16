@@ -1,0 +1,15 @@
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\bin\Debug\netcoreapp2.1\SEDC.lamazon.Tests.deps.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\bin\Debug\netcoreapp2.1\SEDC.lamazon.Tests.runtimeconfig.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\bin\Debug\netcoreapp2.1\SEDC.lamazon.Tests.runtimeconfig.dev.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\bin\Debug\netcoreapp2.1\SEDC.lamazon.Tests.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\bin\Debug\netcoreapp2.1\SEDC.lamazon.Tests.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\obj\Debug\netcoreapp2.1\SEDC.lamazon.Tests.csprojAssemblyReference.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\obj\Debug\netcoreapp2.1\SEDC.lamazon.Tests.AssemblyInfoInputs.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\obj\Debug\netcoreapp2.1\SEDC.lamazon.Tests.AssemblyInfo.cs
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\obj\Debug\netcoreapp2.1\SEDC.lamazon.Tests.csproj.CoreCompileInputs.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\obj\Debug\netcoreapp2.1\SEDC.lamazon.Tests.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\obj\Debug\netcoreapp2.1\SEDC.lamazon.Tests.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.lamazon.Tests\obj\Debug\netcoreapp2.1\SEDC.lamazon.Tests.genruntimeconfig.cache

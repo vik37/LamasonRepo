@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SEDC.LAMAZON.DataAccess</id>
+    <version>1.0.0</version>
+    <authors>SEDC.LAMAZON.DataAccess</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="SEDC.Lamazon.Domain" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Design" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="2.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\bin\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.runtimeconfig.json" target="lib\netcoreapp2.1\SEDC.LAMAZON.DataAccess.runtimeconfig.json" />
+    <file src="C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\bin\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.dll" target="lib\netcoreapp2.1\SEDC.LAMAZON.DataAccess.dll" />
+  </files>
+</package>

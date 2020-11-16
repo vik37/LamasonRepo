@@ -1,0 +1,16 @@
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Services.deps.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Services.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Services.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\bin\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\bin\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Services.csprojAssemblyReference.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Services.AssemblyInfoInputs.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Services.AssemblyInfo.cs
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Services.csproj.CopyComplete
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Services.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Services.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\bin\Debug\netcoreapp2.1\SEDC.Lamazon.WebModels.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\bin\Debug\netcoreapp2.1\SEDC.Lamazon.WebModels.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Services\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Services.csproj.CoreCompileInputs.cache

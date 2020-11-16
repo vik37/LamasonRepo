@@ -1,0 +1,69 @@
+﻿@model List<OrderVM>
+@{
+    ViewData["Title"] = "ListAllOrders";
+}
+
+<h2>All user's orders</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Status</th>
+            <th scope="col">Price</th>
+            <th scope="col">User full name</th>
+            <th scope="col">Products</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+        <tr>
+            <td>@order.Id</td>
+            <td>@order.StatusTypeVM</td>
+            <td>@order.Price</td>
+            <td>@order.UserVM.FullName</td>
+            @{
+                int i = 0;
+            }
+            <td>
+                @foreach (var product in order.ProductsVM)
+                {
+                    i++;
+                    if (order.ProductsVM.Count() == i)
+                    {
+                        <span>@product.Name</span>
+                    }
+                    else
+                    {
+                        <span>@product.Name,</span>
+                    }
+
+                }
+            </td>
+            @if (order.StatusTypeVM == StatusTypeVM.Pending)
+            {
+                <td>
+                    <a asp-action="ApproveOrder" asp-controller="Order" asp-route-orderId="@order.Id" class="btn btn-primary">Approve</a>
+                    <a asp-action="DeclineOrder" asp-controller="Order" asp-route-orderId="@order.Id" class="btn btn-primary">Decline</a>
+                </td>
+            }
+            else if (order.StatusTypeVM == StatusTypeVM.Confirmed)
+            {
+                <td>Waiting to be delivered!</td>
+            }
+            else if (order.StatusTypeVM == StatusTypeVM.Declined)
+            {
+                <td>You have successfully declined this order!</td>
+            }
+            else
+            {
+                <td>Waiting for customer!</td>
+            }
+
+        </tr>
+
+        }
+    </tbody>
+</table>

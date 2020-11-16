@@ -1,0 +1,64 @@
+
+20:31:32 [Information] () User profile is available. Using '"C:\Users\vikto\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+20:31:32 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/  
+
+20:31:32 [Information] () Request starting HTTP/1.1 DEBUG http://localhost:58251/  0
+
+20:31:32 [Warning] () Failed to determine the https port for redirect.
+
+20:31:32 [Information] () Request finished in 41.513ms 200 
+
+20:31:33 [Information] () Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Asp.NetWebApi.LamazonApp.Controllers.HomeController" ("Asp.NetWebApi.LamazonApp").
+
+20:31:33 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.HomeController.Index (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+20:31:33 [Information] () Entity Framework Core "2.1.14-servicing-32113" initialized '"LamazonDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+20:31:33 [Information] () Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]"
+
+20:31:33 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.HomeController.Index (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 642.728ms.
+
+20:31:34 [Information] () Executing ViewResult, running view "Index".
+
+20:31:34 [Information] () Executed ViewResult - view "Index" executed in 144.2822ms.
+
+20:31:34 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.HomeController.Index (Asp.NetWebApi.LamazonApp)" in 959.3426ms
+
+20:31:34 [Information] () Request finished in 1197.3708ms 200 text/html; charset=utf-8
+
+20:31:34 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/site.css  
+
+20:31:34 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/css/bootstrap.css  
+
+20:31:34 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/js/bootstrap.js  
+
+20:31:34 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/lamazon.png  
+
+20:31:34 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/jquery/dist/jquery.js  
+
+20:31:34 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+
+20:31:34 [Information] () Request finished in 13.711ms 404 
+
+20:31:34 [Information] () Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\js\site.js"'
+
+20:31:34 [Information] () Request finished in 5.2782ms 200 application/javascript
+
+20:31:34 [Information] () Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\site.css"'
+
+20:31:34 [Information] () Request finished in 56.8409ms 200 text/css
+
+20:31:34 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+
+20:31:34 [Information] () Request finished in 49.0066ms 200 application/javascript
+
+20:31:34 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+
+20:31:34 [Information] () Request finished in 62.147ms 200 text/css
+
+20:31:34 [Information] () Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\jquery\dist\jquery.js"'
+
+20:31:34 [Information] () Request finished in 55.1186ms 200 application/javascript

@@ -1,0 +1,57 @@
+﻿@model OrderVM
+@{
+    ViewData["Title"] = "Order";
+}
+
+<h1>Order</h1>
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12">
+                <label asp-for="UserVM.FullName"></label>
+                <p>@Model.UserVM.FullName</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label asp-for="Id"></label>
+                <p>@Model.Id</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label asp-for="StatusTypeVM"></label>
+                <p>@Model.StatusTypeVM</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label asp-for="Price"></label>
+                <p>@Model.Price $</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label asp-for="ProductsVM"></label>
+                @if (Model.ProductsVM.Count() > 0)
+                {
+                    <ul>
+                        @foreach (var product in Model.ProductsVM)
+                        {
+                            <li>@product.Name - @product.Price $</li>
+                        }
+                    </ul>
+                    @if (Model.StatusTypeVM == StatusTypeVM.Init)
+                    {
+                        <a asp-controller="Order" asp-action="ChangeStatuss" asp-route-statusId="1" class="btn btn-primary">Proceed</a>
+                    }
+                }
+                else
+                {
+                    <p>Cart is empty!</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>

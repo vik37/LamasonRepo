@@ -1,0 +1,9 @@
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Domain\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.deps.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Domain\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Domain\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Domain\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.AssemblyInfoInputs.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Domain\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.AssemblyInfo.cs
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Domain\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Domain\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Domain\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.Domain\obj\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.csprojAssemblyReference.cache

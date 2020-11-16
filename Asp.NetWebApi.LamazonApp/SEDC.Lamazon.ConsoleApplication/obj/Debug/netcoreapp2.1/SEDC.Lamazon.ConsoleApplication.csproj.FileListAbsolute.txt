@@ -1,0 +1,12 @@
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\bin\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.deps.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\bin\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.runtimeconfig.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\bin\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.runtimeconfig.dev.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\bin\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\bin\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\obj\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.csprojAssemblyReference.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\obj\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.AssemblyInfoInputs.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\obj\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.AssemblyInfo.cs
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\obj\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\obj\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\obj\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.Lamazon.ConsoleApplication\obj\Debug\netcoreapp2.1\SEDC.Lamazon.ConsoleApplication.genruntimeconfig.cache

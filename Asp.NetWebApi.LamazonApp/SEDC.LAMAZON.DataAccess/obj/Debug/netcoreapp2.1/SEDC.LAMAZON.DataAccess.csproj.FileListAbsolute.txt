@@ -1,0 +1,15 @@
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\bin\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.deps.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\bin\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\bin\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\bin\Debug\netcoreapp2.1\SEDC.Lamazon.Domain.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\obj\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.csprojAssemblyReference.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\obj\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.AssemblyInfoInputs.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\obj\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.AssemblyInfo.cs
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\obj\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.csproj.CopyComplete
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\obj\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.dll
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\obj\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.pdb
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\bin\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.runtimeconfig.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\bin\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.runtimeconfig.dev.json
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\obj\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.genruntimeconfig.cache
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\SEDC.LAMAZON.DataAccess\obj\Debug\netcoreapp2.1\SEDC.LAMAZON.DataAccess.csproj.CoreCompileInputs.cache
