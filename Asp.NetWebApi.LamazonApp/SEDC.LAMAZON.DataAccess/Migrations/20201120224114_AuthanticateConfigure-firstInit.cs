@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SEDC.LAMAZON.DataAccess.Migrations
 {
-    public partial class AuthenticationConfiguration_secInit : Migration
+    public partial class AuthanticateConfigurefirstInit : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -193,6 +193,29 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Invoice",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Address = table.Column<string>(nullable: true),
+                    CardNumber = table.Column<int>(nullable: false),
+                    SumOfPrice = table.Column<int>(nullable: false),
+                    PaymentType = table.Column<int>(nullable: false),
+                    OrderId = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Invoice", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Invoice_Orders_OrderId",
+                        column: x => x.OrderId,
+                        principalTable: "Orders",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "ProductOrders",
                 columns: table => new
                 {
@@ -224,14 +247,14 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "44112c93-6d05-47c3-9819-ca9653b7d82f", "5d0a46a0-beb9-464a-9aa2-99d246b587eb", "admin", "ADMIN" },
-                    { "30a32c35-3725-4c23-a59f-5544cc1b9620", "6a1885be-1202-48d2-8d8b-5b934883aab7", "user", "USER" }
+                    { "5fe678db-dda3-4439-96f2-1b752c43d172", "16a63c99-8e72-4ac8-ae0f-a6380cc5538e", "admin", "ADMIN" },
+                    { "b0299566-dabb-4a30-b50b-778dd558d5d3", "5b6e6cab-49da-4ef0-aa42-d794730e8be1", "user", "USER" }
                 });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FullName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "581c079a-03b8-4c38-b99b-8d6a134c4e3b", 0, "b28a8894-3eb1-4c54-8642-4d01d777c0d0", "lamazon@supply.com", true, null, false, null, "lamazon@supply.com", "ADMIN", "AQAAAAEAACcQAAAAEC+zpCW1bKiEpMAFVNmVgNj7PmTIgCK4fQGGUyA2TXqTMqSE2khWi85GsJwmUwn/AA==", null, false, "", false, "admin" });
+                values: new object[] { "2233057a-6a74-4ff6-a2b3-436ccb719249", 0, "4120d545-9f60-497d-a46d-0ab71134e468", "lamazon@supply.com", true, null, false, null, "lamazon@supply.com", "ADMIN", "AQAAAAEAACcQAAAAEIhnnW0d3D+KZnTuZNc8EAaV95ypUsokTWbL1+F5/ygo0apiPxvRSNRIJFA+kgXBpw==", null, false, "", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "Products",
@@ -255,7 +278,7 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "UserId", "RoleId" },
-                values: new object[] { "581c079a-03b8-4c38-b99b-8d6a134c4e3b", "44112c93-6d05-47c3-9819-ca9653b7d82f" });
+                values: new object[] { "2233057a-6a74-4ff6-a2b3-436ccb719249", "5fe678db-dda3-4439-96f2-1b752c43d172" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -297,6 +320,12 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Invoice_OrderId",
+                table: "Invoice",
+                column: "OrderId",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Orders_UserId",
                 table: "Orders",
                 column: "UserId");
@@ -323,6 +352,9 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "Invoice");
 
             migrationBuilder.DropTable(
                 name: "ProductOrders");

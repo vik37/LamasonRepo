@@ -213,7 +213,7 @@ using SEDC.Lamazon.WebModels.Enum;
             WriteLiteral("                <td>\r\n                    ");
             EndContext();
             BeginContext(1283, 117, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c4c6aa99f269403fa6edb96301bf6a85", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fcc00bcc7c0a4090ab500d8aa73fa48f", async() => {
                 BeginContext(1389, 7, true);
                 WriteLiteral("Approve");
                 EndContext();
@@ -251,7 +251,7 @@ using SEDC.Lamazon.WebModels.Enum;
             WriteLiteral("\r\n                    ");
             EndContext();
             BeginContext(1422, 117, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ae48afccd8f54d56baff896fa412ea99", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "934b48606a3446518eba5f6760d4f484", async() => {
                 BeginContext(1528, 7, true);
                 WriteLiteral("Decline");
                 EndContext();

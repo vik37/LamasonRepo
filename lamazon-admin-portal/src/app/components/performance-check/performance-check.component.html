@@ -1,0 +1,4 @@
+<div class="container mt-5">
+    <h3>Performance check</h3>
+    <p [ngClass]="milliseconds > timeLimit ? 'text-danger' : 'text-info'">Limit time: {{ timeLimit }} ms | Execution time: {{ milliseconds }} ms</p>
+</div>

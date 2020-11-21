@@ -1,0 +1,2316 @@
+
+23:14:42 [Debug] () Hosting starting
+
+23:14:43 [Information] () User profile is available. Using '"C:\Users\vikto\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+23:14:43 [Debug] () Reading data from file '"C:\Users\vikto\AppData\Local\ASP.NET\DataProtection-Keys\key-3fe4efb1-0bdf-4dbc-b769-aa4f148d761f.xml"'.
+
+23:14:43 [Debug] () Found key {3fe4efb1-0bdf-4dbc-b769-aa4f148d761f}.
+
+23:14:43 [Debug] () Considering key {3fe4efb1-0bdf-4dbc-b769-aa4f148d761f} with expiration date 2020-11-23 17:25:14Z as default key.
+
+23:14:43 [Debug] () Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+
+23:14:43 [Debug] () Decrypting secret element using Windows DPAPI.
+
+23:14:43 [Debug] () Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+
+23:14:43 [Debug] () Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+
+23:14:43 [Debug] () Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+
+23:14:43 [Debug] () Using key {3fe4efb1-0bdf-4dbc-b769-aa4f148d761f} as the default key.
+
+23:14:43 [Debug] () Key ring with default key {3fe4efb1-0bdf-4dbc-b769-aa4f148d761f} was loaded during application startup.
+
+23:14:43 [Debug] () Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using compatibility value True for version Version_2_1
+
+23:14:43 [Debug] () Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using compatibility value True for version Version_2_1
+
+23:14:43 [Debug] () Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using compatibility value True for version Version_2_1
+
+23:14:43 [Debug] () Compatibility switch "AllowValidatingTopLevelNodes" in type "MvcOptions" is using compatibility value True for version Version_2_1
+
+23:14:43 [Debug] () Compatibility switch "InputFormatterExceptionPolicy" in type "MvcOptions" is using compatibility value MalformedInputExceptions for version Version_2_1
+
+23:14:43 [Debug] () Compatibility switch "SuppressBindingUndefinedValueToEnumType" in type "MvcOptions" is using compatibility value True for version Version_2_1
+
+23:14:43 [Debug] () Compatibility switch "AllowAreas" in type "RazorPagesOptions" is using compatibility value True for version Version_2_1
+
+23:14:43 [Debug] () Compatibility switch "AllowMappingHeadRequestsToGetHandler" in type "RazorPagesOptions" is using compatibility value True for version Version_2_1
+
+23:14:43 [Debug] () Compatibility switch "SuppressTempDataAttributePrefix" in type "MvcViewOptions" is using compatibility value True for version Version_2_1
+
+23:14:43 [Debug] () Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+
+23:14:43 [Debug] () Failed to locate the development https certificate at 'null'.
+
+23:14:43 [Debug] () Hosting started
+
+23:14:43 [Debug] () Loaded hosting startup assembly "Asp.NetWebApi.LamazonApp"
+
+23:14:43 [Debug] () Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+
+23:14:43 [Debug] () Connection id ""0HM4DK6NHA2I5"" started.
+
+23:14:44 [Debug] () Connection id ""0HM4DK6NHA2I6"" started.
+
+23:14:44 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/  
+
+23:14:44 [Information] () Request starting HTTP/1.1 DEBUG http://localhost:58251/  0
+
+23:14:44 [Debug] () Wildcard detected, all requests with hosts will be allowed.
+
+23:14:44 [Debug] () Wildcard detected, all requests with hosts will be allowed.
+
+23:14:44 [Warning] () Failed to determine the https port for redirect.
+
+23:14:44 [Debug] () Connection id ""0HM4DK6NHA2I5"" completed keep alive response.
+
+23:14:44 [Information] () Request finished in 40.0763ms 200 
+
+23:14:44 [Debug] () The request path "/" does not match a supported file type
+
+23:14:44 [Debug] () AuthenticationScheme: "Identity.Application" was not authenticated.
+
+23:14:44 [Debug] () The request path "" does not match the path filter
+
+23:14:44 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:14:44 [Information] () Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Asp.NetWebApi.LamazonApp.Controllers.HomeController" ("Asp.NetWebApi.LamazonApp").
+
+23:14:44 [Debug] () Execution plan of "authorization" filters (in the following order): ["None"]
+
+23:14:44 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:14:44 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:14:44 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:14:44 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:14:44 [Debug] () An 'IServiceProvider' was created for internal use by Entity Framework.
+
+23:14:44 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.HomeController.Index (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:14:44 [Debug] () The index "{'UserId'}" was not created as the properties are already covered by the index "{'UserId', 'LoginProvider', 'Name'}".
+
+23:14:44 [Debug] () The foreign key properties haven't been configured by convention because the best match "{'Id' : int}" are incompatible with the current principal key "{'Id' : string}". This message can be disregarded if explicit configuration has been specified.
+
+23:14:44 [Debug] () The foreign key properties haven't been configured by convention because the best match "{'Id' : int}" are incompatible with the current principal key "{'Id' : string}". This message can be disregarded if explicit configuration has been specified.
+
+23:14:44 [Debug] () The index "{'UserId'}" was not created as the properties are already covered by the index "{'UserId', 'RoleId'}".
+
+23:14:44 [Debug] () The index "{'ProductId'}" was not created as the properties are already covered by the index "{'ProductId', 'OrderId'}".
+
+23:14:44 [Information] () Entity Framework Core "2.1.14-servicing-32113" initialized '"LamazonDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:14:44 [Debug] () Compiling query model: "
+"'"from Product <generated>_0 in DbSet<Product>
+select [<generated>_0]"'
+
+23:14:44 [Debug] () Optimized query model: "
+"'"from Product <generated>_0 in DbSet<Product>
+select [<generated>_0]"'
+
+23:14:44 [Debug] () "(QueryContext queryContext) => IEnumerable<Product> _InterceptExceptions(
+    source: IEnumerable<Product> _TrackEntities(
+        results: IEnumerable<Product> _ShapedQuery(
+            queryContext: queryContext, 
+            shaperCommandContext: SelectExpression: 
+                SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price]
+                FROM [Products] AS [p], 
+            shaper: UnbufferedEntityShaper<Product>), 
+        queryContext: queryContext, 
+        entityTrackingInfos: { itemType: Product }, 
+        entityAccessors: List<Func<Product, object>> 
+        { 
+            Func<Product, Product>, 
+        }
+    ), 
+    contextType: SEDC.LAMAZON.DataAccess.LamazonDbContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+
+23:14:45 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:14:45 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:14:45 [Debug] () Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]"
+
+23:14:45 [Information] () Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]"
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:14:45 [Debug] () A data reader was disposed.
+
+23:14:45 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:14:45 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:14:45 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.HomeController.Index (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 812.0625ms.
+
+23:14:45 [Debug] () View lookup cache miss for view '"Index"' in controller '"Home"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Home/About.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Home/Contact.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Home/Index.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Home/Privacy.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Order/ListAllOrders.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Order/ListOrders.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Order/Order.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Product/Products.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Shared/Error.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Shared/ErrorView.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Shared/_CookieConsentPartial.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Shared/_Layout.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Shared/_ValidationScriptsPartial.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/User/LogIn.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/User/Register.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/_ViewImports.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/_ViewStart.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Shared/Components/NToastNotify/Default.cshtml"'.
+
+23:14:45 [Debug] () Initializing Razor view compiler with compiled view: '"/Views/Shared/Components/NToastNotify/Default.cshtml"'.
+
+23:14:45 [Debug] () Using precompiled view for '"/Views/Home/Index.cshtml"'.
+
+23:14:45 [Information] () Executing ViewResult, running view "Index".
+
+23:14:45 [Debug] () The view path '"/Views/Home/Index.cshtml"' was found in 25.3246ms.
+
+23:14:45 [Debug] () View lookup cache miss for view '"_Layout"' in controller '"Home"'.
+
+23:14:45 [Debug] () Using precompiled view for '"/Views/Shared/_Layout.cshtml"'.
+
+23:14:45 [Debug] () View lookup cache miss for view '"_CookieConsentPartial"' in controller '"Home"'.
+
+23:14:45 [Debug] () Using precompiled view for '"/Views/Shared/_CookieConsentPartial.cshtml"'.
+
+23:14:45 [Debug] () Executing view component "NToastNotify.NToastNotifyViewComponent" with arguments ([]).
+
+23:14:45 [Debug] () The temp data cookie ".AspNetCore.Mvc.CookieTempDataProvider" was not found.
+
+23:14:45 [Debug] () Executed view component "NToastNotify.NToastNotifyViewComponent" in 3.3926ms and returned "Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult"
+
+23:14:45 [Debug] () View lookup cache miss for view '"Components/NToastNotify/Default"' in controller '"Home"'.
+
+23:14:45 [Debug] () Using precompiled view for '"/Views/Shared/Components/NToastNotify/Default.cshtml"'.
+
+23:14:45 [Information] () Executed ViewResult - view "Index" executed in 245.3796ms.
+
+23:14:45 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.HomeController.Index (Asp.NetWebApi.LamazonApp)" in 1261.6247ms
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I6"" completed keep alive response.
+
+23:14:45 [Debug] () '"LamazonDbContext"' disposed.
+
+23:14:45 [Information] () Request finished in 1488.9299ms 200 text/html; charset=utf-8
+
+23:14:45 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/css/bootstrap.css  
+
+23:14:45 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/site.css  
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I7"" started.
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I8"" started.
+
+23:14:45 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/jquery/dist/jquery.js  
+
+23:14:45 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/not-found.css  
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I9"" started.
+
+23:14:45 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/js/bootstrap.js  
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2IA"" started.
+
+23:14:45 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+
+23:14:45 [Information] () Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\js\site.js"'
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2IA"" completed keep alive response.
+
+23:14:45 [Information] () Request finished in 19.9257ms 200 application/javascript
+
+23:14:45 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/NToastNotify/js/dist/toastr.js?v=201806071014  
+
+23:14:45 [Debug] () The request path "/NToastNotify/js/dist/toastr.js" does not match an existing file
+
+23:14:45 [Debug] () AuthenticationScheme: "Identity.Application" was not authenticated.
+
+23:14:45 [Information] () Sending file. Request path: '"/js/dist/toastr.js"'. Physical path: '"N/A"'
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2IA"" completed keep alive response.
+
+23:14:45 [Information] () Request finished in 2.7115ms 200 application/javascript
+
+23:14:45 [Information] () Sending file. Request path: '"/css/not-found.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\not-found.css"'
+
+23:14:45 [Information] () Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\site.css"'
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I6"" completed keep alive response.
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I8"" completed keep alive response.
+
+23:14:45 [Information] () Request finished in 97.3848ms 200 text/css
+
+23:14:45 [Information] () Request finished in 90.1793ms 200 text/css
+
+23:14:45 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I9"" completed keep alive response.
+
+23:14:45 [Information] () Request finished in 103.5424ms 200 application/javascript
+
+23:14:45 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/lamazon.svg  
+
+23:14:45 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I5"" completed keep alive response.
+
+23:14:45 [Information] () Request finished in 126.4034ms 200 text/css
+
+23:14:45 [Information] () Sending file. Request path: '"/images/lamazon.svg"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\lamazon.svg"'
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I8"" completed keep alive response.
+
+23:14:45 [Information] () Request finished in 13.7914ms 200 image/svg+xml
+
+23:14:45 [Information] () Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\jquery\dist\jquery.js"'
+
+23:14:45 [Debug] () Connection id ""0HM4DK6NHA2I7"" completed keep alive response.
+
+23:14:45 [Information] () Request finished in 129.2706ms 200 application/javascript
+
+23:14:49 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/User/LogIn  
+
+23:14:49 [Debug] () The request path "/User/LogIn" does not match a supported file type
+
+23:14:49 [Debug] () AuthenticationScheme: "Identity.Application" was not authenticated.
+
+23:14:49 [Debug] () The request path "" does not match the path filter
+
+23:14:49 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:14:49 [Debug] () Action '"Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)"' with id '"809d3593-faee-475c-91da-632bd39bbef7"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+
+23:14:49 [Information] () Route matched with "{action = \"LogIn\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogIn()" on controller "Asp.NetWebApi.LamazonApp.Controllers.UserController" ("Asp.NetWebApi.LamazonApp").
+
+23:14:49 [Debug] () Execution plan of "authorization" filters (in the following order): ["None"]
+
+23:14:49 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:14:49 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:14:49 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:14:49 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:14:49 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:14:49 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 7.2156ms.
+
+23:14:49 [Debug] () View lookup cache miss for view '"LogIn"' in controller '"User"'.
+
+23:14:49 [Debug] () Using precompiled view for '"/Views/User/LogIn.cshtml"'.
+
+23:14:49 [Information] () Executing ViewResult, running view "LogIn".
+
+23:14:49 [Debug] () The view path '"/Views/User/LogIn.cshtml"' was found in 7.9134ms.
+
+23:14:49 [Debug] () A new antiforgery cookie token was created.
+
+23:14:49 [Debug] () View lookup cache miss for view '"_Layout"' in controller '"User"'.
+
+23:14:49 [Debug] () Using precompiled view for '"/Views/Shared/_Layout.cshtml"'.
+
+23:14:49 [Debug] () View lookup cache miss for view '"_CookieConsentPartial"' in controller '"User"'.
+
+23:14:49 [Debug] () Using precompiled view for '"/Views/Shared/_CookieConsentPartial.cshtml"'.
+
+23:14:49 [Debug] () Executing view component "NToastNotify.NToastNotifyViewComponent" with arguments ([]).
+
+23:14:49 [Debug] () The temp data cookie ".AspNetCore.Mvc.CookieTempDataProvider" was not found.
+
+23:14:49 [Debug] () Executed view component "NToastNotify.NToastNotifyViewComponent" in 0.6695ms and returned "Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult"
+
+23:14:49 [Debug] () View lookup cache miss for view '"Components/NToastNotify/Default"' in controller '"User"'.
+
+23:14:49 [Debug] () Using precompiled view for '"/Views/Shared/Components/NToastNotify/Default.cshtml"'.
+
+23:14:49 [Information] () Executed ViewResult - view "LogIn" executed in 117.221ms.
+
+23:14:49 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" in 136.9574ms
+
+23:14:49 [Debug] () Connection id ""0HM4DK6NHA2I6"" completed keep alive response.
+
+23:14:49 [Information] () Request finished in 153.3069ms 200 text/html; charset=utf-8
+
+23:14:49 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/css/bootstrap.css  
+
+23:14:49 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/not-found.css  
+
+23:14:49 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+
+23:14:49 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/site.css  
+
+23:14:49 [Information] () Sending file. Request path: '"/css/not-found.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\not-found.css"'
+
+23:14:49 [Debug] () Connection id ""0HM4DK6NHA2IA"" completed keep alive response.
+
+23:14:49 [Information] () Request finished in 4.0964ms 200 text/css
+
+23:14:49 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/jquery/dist/jquery.js  
+
+23:14:49 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/js/bootstrap.js  
+
+23:14:49 [Information] () Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\jquery\dist\jquery.js"'
+
+23:14:49 [Debug] () Connection id ""0HM4DK6NHA2I7"" completed keep alive response.
+
+23:14:49 [Information] () Request finished in 12.0913ms 200 application/javascript
+
+23:14:49 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+
+23:14:49 [Debug] () Connection id ""0HM4DK6NHA2I6"" completed keep alive response.
+
+23:14:49 [Information] () Request finished in 12.7583ms 200 application/javascript
+
+23:14:49 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+
+23:14:49 [Debug] () Connection id ""0HM4DK6NHA2I9"" completed keep alive response.
+
+23:14:49 [Information] () Request finished in 17.763ms 200 text/css
+
+23:14:49 [Information] () Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\js\site.js"'
+
+23:14:49 [Information] () Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\site.css"'
+
+23:14:49 [Debug] () Connection id ""0HM4DK6NHA2I8"" completed keep alive response.
+
+23:14:49 [Information] () Request finished in 25.6276ms 200 application/javascript
+
+23:14:49 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/NToastNotify/js/dist/toastr.js?v=201806071014  
+
+23:14:49 [Debug] () Connection id ""0HM4DK6NHA2I5"" completed keep alive response.
+
+23:14:49 [Information] () Request finished in 27.7656ms 200 text/css
+
+23:14:49 [Debug] () The request path "/NToastNotify/js/dist/toastr.js" does not match an existing file
+
+23:14:49 [Debug] () AuthenticationScheme: "Identity.Application" was not authenticated.
+
+23:14:49 [Information] () Sending file. Request path: '"/js/dist/toastr.js"'. Physical path: '"N/A"'
+
+23:14:49 [Debug] () Connection id ""0HM4DK6NHA2IA"" completed keep alive response.
+
+23:14:49 [Information] () Request finished in 1.4147ms 200 application/javascript
+
+23:14:49 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+
+23:14:49 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"'
+
+23:14:49 [Debug] () Connection id ""0HM4DK6NHA2I5"" completed keep alive response.
+
+23:14:49 [Information] () Request finished in 2.8358ms 200 font/woff2
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I6"" received FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I7"" received FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I9"" received FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I8"" received FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2IB"" started.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2IA"" received FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I5"" received FIN.
+
+23:15:49 [Information] () Request starting HTTP/1.1 POST http://localhost:58251/User/Login application/x-www-form-urlencoded 220
+
+23:15:49 [Debug] () "POST" requests are not supported
+
+23:15:49 [Debug] () AuthenticationScheme: "Identity.Application" was not authenticated.
+
+23:15:49 [Debug] () "POST" requests are not supported
+
+23:15:49 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I9"" disconnecting.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I7"" disconnecting.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I6"" disconnecting.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I8"" disconnecting.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I9"" sending FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2IA"" disconnecting.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I5"" disconnecting.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I7"" sending FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I6"" sending FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I5"" sending FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2IA"" sending FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I8"" sending FIN.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I7"" stopped.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I8"" stopped.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2IA"" stopped.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I5"" stopped.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I6"" stopped.
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2I9"" stopped.
+
+23:15:49 [Information] () Route matched with "{action = \"LogIn\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogIn(SEDC.Lamazon.WebModels.ViewModels.LoginVM)" on controller "Asp.NetWebApi.LamazonApp.Controllers.UserController" ("Asp.NetWebApi.LamazonApp").
+
+23:15:49 [Debug] () Execution plan of "authorization" filters (in the following order): ["None"]
+
+23:15:49 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:15:49 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:15:49 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:15:49 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:15:49 [Debug] () Connection id ""0HM4DK6NHA2IB"", Request id ""0HM4DK6NHA2IB:00000001"": started reading request body.
+
+23:15:50 [Debug] () Connection id ""0HM4DK6NHA2IB"", Request id ""0HM4DK6NHA2IB:00000001"": done reading request body.
+
+23:15:50 [Debug] () Attempting to bind parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"' ...
+
+23:15:50 [Debug] () Attempting to bind parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"' using the name '""' in request data ...
+
+23:15:50 [Debug] () Attempting to bind property '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"."UserName"' of type '"System.String"' using the name '"UserName"' in request data ...
+
+23:15:50 [Debug] () Done attempting to bind property '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"."UserName"' of type '"System.String"'.
+
+23:15:50 [Debug] () Attempting to bind property '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"."Password"' of type '"System.String"' using the name '"Password"' in request data ...
+
+23:15:50 [Debug] () Done attempting to bind property '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"."Password"' of type '"System.String"'.
+
+23:15:50 [Debug] () Done attempting to bind parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"'.
+
+23:15:50 [Debug] () Done attempting to bind parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"'.
+
+23:15:50 [Debug] () Attempting to validate the bound parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"' ...
+
+23:15:50 [Debug] () Done attempting to validate the bound parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"'.
+
+23:15:50 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:15:50 [Debug] () Authenticathing user with username viktor
+
+23:15:50 [Information] () Entity Framework Core "2.1.14-servicing-32113" initialized '"LamazonDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:15:50 [Debug] () Compiling query model: "
+"'"(from User u in DbSet<User>
+where [u].NormalizedUserName == __normalizedUserName_0
+select [u]).FirstOrDefault()"'
+
+23:15:50 [Debug] () Optimized query model: "
+"'"(from User u in DbSet<User>
+where [u].NormalizedUserName == __normalizedUserName_0
+select [u]).FirstOrDefault()"'
+
+23:15:50 [Debug] () "(QueryContext queryContext) => IAsyncEnumerable<User> _InterceptExceptions(
+    source: IAsyncEnumerable<User> _TrackEntities(
+        results: IAsyncEnumerable<User> _ToSequence(() => Task<User> FirstOrDefault(
+                source: IAsyncEnumerable<User> _ShapedQuery(
+                    queryContext: queryContext, 
+                    shaperCommandContext: SelectExpression: 
+                        SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+                        FROM [AspNetUsers] AS [u]
+                        WHERE [u].[NormalizedUserName] = @__normalizedUserName_0, 
+                    shaper: UnbufferedEntityShaper<User>), 
+                cancellationToken: queryContext.CancellationToken)), 
+        queryContext: queryContext, 
+        entityTrackingInfos: { itemType: User }, 
+        entityAccessors: List<Func<User, object>> 
+        { 
+            Func<User, User>, 
+        }
+    ), 
+    contextType: SEDC.LAMAZON.DataAccess.LamazonDbContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+
+23:15:50 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Executing DbCommand [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+
+23:15:50 [Information] () Executed DbCommand ("54"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+
+23:15:50 [Debug] () A data reader was disposed.
+
+23:15:50 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Context '"User"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:50 [Debug] () Compiling query model: "
+"'"from IdentityUserClaim<string> uc in DbSet<IdentityUserClaim<string>>
+where bool [uc].UserId.Equals(__user_Id_0)
+select Claim [uc].ToClaim()"'
+
+23:15:50 [Debug] () Optimized query model: "
+"'"from IdentityUserClaim<string> uc in DbSet<IdentityUserClaim<string>>
+where bool [uc].UserId.Equals(__user_Id_0)
+select Claim [uc].ToClaim()"'
+
+23:15:50 [Debug] () "(QueryContext queryContext) => IAsyncEnumerable<Claim> _InterceptExceptions(
+    source: IAsyncEnumerable<Claim> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+            FROM [AspNetUserClaims] AS [uc]
+            WHERE [uc].[UserId] = @__user_Id_0, 
+        shaper: TypedProjectionShaper<UnbufferedOffsetEntityShaper<IdentityUserClaim<string>>, IdentityUserClaim<string>, Claim>), 
+    contextType: SEDC.LAMAZON.DataAccess.LamazonDbContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+
+23:15:50 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Executing DbCommand [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0"
+
+23:15:50 [Information] () Executed DbCommand ("4"ms) [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0"
+
+23:15:50 [Debug] () A data reader was disposed.
+
+23:15:50 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Compiling query model: "
+"'"from IdentityUserRole<string> userRole in DbSet<IdentityUserRole<string>>
+join IdentityRole role in DbSet<IdentityRole>
+on [userRole].RoleId equals [role].Id
+where bool [userRole].UserId.Equals(__userId_0)
+select [role].Name"'
+
+23:15:50 [Debug] () Optimized query model: "
+"'"from IdentityUserRole<string> userRole in DbSet<IdentityUserRole<string>>
+join IdentityRole role in DbSet<IdentityRole>
+on [userRole].RoleId equals [role].Id
+where bool [userRole].UserId.Equals(__userId_0)
+select [role].Name"'
+
+23:15:50 [Debug] () "(QueryContext queryContext) => IAsyncEnumerable<string> _InterceptExceptions(
+    source: IAsyncEnumerable<string> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT [role].[Name]
+            FROM [AspNetUserRoles] AS [userRole]
+            INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+            WHERE [userRole].[UserId] = @__userId_0, 
+        shaper: TypedProjectionShaper<TypedCompositeShaper<ValueBufferShaper, ValueBuffer, ValueBufferShaper, ValueBuffer, TransparentIdentifier<ValueBuffer, ValueBuffer>>, TransparentIdentifier<ValueBuffer, ValueBuffer>, string>), 
+    contextType: SEDC.LAMAZON.DataAccess.LamazonDbContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+
+23:15:50 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0"
+
+23:15:50 [Information] () Executed DbCommand ("8"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0"
+
+23:15:50 [Debug] () A data reader was disposed.
+
+23:15:50 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Compiling query model: "
+"'"(from IdentityRole r in DbSet<IdentityRole>
+where [r].NormalizedName == __normalizedName_0
+select [r]).FirstOrDefault()"'
+
+23:15:50 [Debug] () Optimized query model: "
+"'"(from IdentityRole r in DbSet<IdentityRole>
+where [r].NormalizedName == __normalizedName_0
+select [r]).FirstOrDefault()"'
+
+23:15:50 [Debug] () "(QueryContext queryContext) => IAsyncEnumerable<IdentityRole> _InterceptExceptions(
+    source: IAsyncEnumerable<IdentityRole> _TrackEntities(
+        results: IAsyncEnumerable<IdentityRole> _ToSequence(() => Task<IdentityRole> FirstOrDefault(
+                source: IAsyncEnumerable<IdentityRole> _ShapedQuery(
+                    queryContext: queryContext, 
+                    shaperCommandContext: SelectExpression: 
+                        SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+                        FROM [AspNetRoles] AS [r]
+                        WHERE [r].[NormalizedName] = @__normalizedName_0, 
+                    shaper: UnbufferedEntityShaper<IdentityRole>), 
+                cancellationToken: queryContext.CancellationToken)), 
+        queryContext: queryContext, 
+        entityTrackingInfos: { itemType: IdentityRole }, 
+        entityAccessors: List<Func<IdentityRole, object>> 
+        { 
+            Func<IdentityRole, IdentityRole>, 
+        }
+    ), 
+    contextType: SEDC.LAMAZON.DataAccess.LamazonDbContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+
+23:15:50 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0"
+
+23:15:50 [Information] () Executed DbCommand ("4"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0"
+
+23:15:50 [Debug] () A data reader was disposed.
+
+23:15:50 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Context '"IdentityRole"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:50 [Debug] () Compiling query model: "
+"'"from IdentityRoleClaim<string> rc in DbSet<IdentityRoleClaim<string>>
+where bool [rc].RoleId.Equals(__role_Id_0)
+select new Claim(
+    [rc].ClaimType, 
+    [rc].ClaimValue
+)"'
+
+23:15:50 [Debug] () Optimized query model: "
+"'"from IdentityRoleClaim<string> rc in DbSet<IdentityRoleClaim<string>>
+where bool [rc].RoleId.Equals(__role_Id_0)
+select new Claim(
+    [rc].ClaimType, 
+    [rc].ClaimValue
+)"'
+
+23:15:50 [Debug] () "(QueryContext queryContext) => IAsyncEnumerable<Claim> _InterceptExceptions(
+    source: IAsyncEnumerable<Claim> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT [rc].[ClaimType], [rc].[ClaimValue]
+            FROM [AspNetRoleClaims] AS [rc]
+            WHERE [rc].[RoleId] = @__role_Id_0, 
+        shaper: TypedProjectionShaper<ValueBufferShaper, ValueBuffer, Claim>), 
+    contextType: SEDC.LAMAZON.DataAccess.LamazonDbContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+
+23:15:50 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Executing DbCommand [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0"
+
+23:15:50 [Information] () Executed DbCommand ("7"ms) [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0"
+
+23:15:50 [Debug] () A data reader was disposed.
+
+23:15:50 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Information] () AuthenticationScheme: "Identity.Application" signed in.
+
+23:15:50 [Debug] () Compiling query model: "
+"'"(from User x in DbSet<User>
+where [x].UserName == __userName_0
+select [x]).SingleOrDefault()"'
+
+23:15:50 [Debug] () Optimized query model: "
+"'"(from User x in DbSet<User>
+where [x].UserName == __userName_0
+select [x]).SingleOrDefault()"'
+
+23:15:50 [Debug] () "(QueryContext queryContext) => IEnumerable<User> _InterceptExceptions(
+    source: IEnumerable<User> _TrackEntities(
+        results: IEnumerable<User> _ToSequence(() => User SingleOrDefault(IEnumerable<User> _ShapedQuery(
+                    queryContext: queryContext, 
+                    shaperCommandContext: SelectExpression: 
+                        SELECT TOP(2) [x].[Id], [x].[AccessFailedCount], [x].[ConcurrencyStamp], [x].[Email], [x].[EmailConfirmed], [x].[FullName], [x].[LockoutEnabled], [x].[LockoutEnd], [x].[NormalizedEmail], [x].[NormalizedUserName], [x].[PasswordHash], [x].[PhoneNumber], [x].[PhoneNumberConfirmed], [x].[SecurityStamp], [x].[TwoFactorEnabled], [x].[UserName]
+                        FROM [AspNetUsers] AS [x]
+                        WHERE [x].[UserName] = @__userName_0, 
+                    shaper: UnbufferedEntityShaper<User>))), 
+        queryContext: queryContext, 
+        entityTrackingInfos: { itemType: User }, 
+        entityAccessors: List<Func<User, object>> 
+        { 
+            Func<User, User>, 
+        }
+    ), 
+    contextType: SEDC.LAMAZON.DataAccess.LamazonDbContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+
+23:15:50 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Executing DbCommand [Parameters=["@__userName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [x].[Id], [x].[AccessFailedCount], [x].[ConcurrencyStamp], [x].[Email], [x].[EmailConfirmed], [x].[FullName], [x].[LockoutEnabled], [x].[LockoutEnd], [x].[NormalizedEmail], [x].[NormalizedUserName], [x].[PasswordHash], [x].[PhoneNumber], [x].[PhoneNumberConfirmed], [x].[SecurityStamp], [x].[TwoFactorEnabled], [x].[UserName]
+FROM [AspNetUsers] AS [x]
+WHERE [x].[UserName] = @__userName_0"
+
+23:15:50 [Information] () Executed DbCommand ("8"ms) [Parameters=["@__userName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [x].[Id], [x].[AccessFailedCount], [x].[ConcurrencyStamp], [x].[Email], [x].[EmailConfirmed], [x].[FullName], [x].[LockoutEnabled], [x].[LockoutEnd], [x].[NormalizedEmail], [x].[NormalizedUserName], [x].[PasswordHash], [x].[PhoneNumber], [x].[PhoneNumberConfirmed], [x].[SecurityStamp], [x].[TwoFactorEnabled], [x].[UserName]
+FROM [AspNetUsers] AS [x]
+WHERE [x].[UserName] = @__userName_0"
+
+23:15:50 [Debug] () A data reader was disposed.
+
+23:15:50 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Compiling query model: "
+"'"(from IdentityRole r in DbSet<IdentityRole>
+where [r].NormalizedName == __normalizedRoleName_0
+select [r]).SingleOrDefault()"'
+
+23:15:50 [Debug] () Optimized query model: "
+"'"(from IdentityRole r in DbSet<IdentityRole>
+where [r].NormalizedName == __normalizedRoleName_0
+select [r]).SingleOrDefault()"'
+
+23:15:50 [Debug] () "(QueryContext queryContext) => IAsyncEnumerable<IdentityRole> _InterceptExceptions(
+    source: IAsyncEnumerable<IdentityRole> _TrackEntities(
+        results: IAsyncEnumerable<IdentityRole> _ToSequence(() => Task<IdentityRole> SingleOrDefault(
+                source: IAsyncEnumerable<IdentityRole> _ShapedQuery(
+                    queryContext: queryContext, 
+                    shaperCommandContext: SelectExpression: 
+                        SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+                        FROM [AspNetRoles] AS [r]
+                        WHERE [r].[NormalizedName] = @__normalizedRoleName_0, 
+                    shaper: UnbufferedEntityShaper<IdentityRole>), 
+                cancellationToken: queryContext.CancellationToken)), 
+        queryContext: queryContext, 
+        entityTrackingInfos: { itemType: IdentityRole }, 
+        entityAccessors: List<Func<IdentityRole, object>> 
+        { 
+            Func<IdentityRole, IdentityRole>, 
+        }
+    ), 
+    contextType: SEDC.LAMAZON.DataAccess.LamazonDbContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+
+23:15:50 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Executing DbCommand [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0"
+
+23:15:50 [Information] () Executed DbCommand ("6"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0"
+
+23:15:50 [Debug] () A data reader was disposed.
+
+23:15:50 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Context '"IdentityRole"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:50 [Debug] () Compiling query model: "
+"'"(from IdentityUserRole<string> e in DbSet<IdentityUserRole<string>>
+where Property([e], \"UserId\") == __get_Item_0 && Property([e], \"RoleId\") == __get_Item_1
+select [e]).FirstOrDefault()"'
+
+23:15:50 [Debug] () Optimized query model: "
+"'"(from IdentityUserRole<string> e in DbSet<IdentityUserRole<string>>
+where Property([e], \"UserId\") == __get_Item_0 && Property([e], \"RoleId\") == __get_Item_1
+select [e]).FirstOrDefault()"'
+
+23:15:50 [Debug] () "(QueryContext queryContext) => IAsyncEnumerable<IdentityUserRole<string>> _InterceptExceptions(
+    source: IAsyncEnumerable<IdentityUserRole<string>> _TrackEntities(
+        results: IAsyncEnumerable<IdentityUserRole<string>> _ToSequence(() => Task<IdentityUserRole<string>> FirstOrDefault(
+                source: IAsyncEnumerable<IdentityUserRole<string>> _ShapedQuery(
+                    queryContext: queryContext, 
+                    shaperCommandContext: SelectExpression: 
+                        SELECT TOP(1) [e].[UserId], [e].[RoleId]
+                        FROM [AspNetUserRoles] AS [e]
+                        WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1), 
+                    shaper: BufferedEntityShaper<IdentityUserRole`1>), 
+                cancellationToken: queryContext.CancellationToken)), 
+        queryContext: queryContext, 
+        entityTrackingInfos: { itemType: IdentityUserRole`1 }, 
+        entityAccessors: List<Func<IdentityUserRole<string>, object>> 
+        { 
+            Func<IdentityUserRole<string>, IdentityUserRole<string>>, 
+        }
+    ), 
+    contextType: SEDC.LAMAZON.DataAccess.LamazonDbContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+
+23:15:50 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Executing DbCommand [Parameters=["@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)"
+
+23:15:50 [Information] () Executed DbCommand ("5"ms) [Parameters=["@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)"
+
+23:15:50 [Debug] () A data reader was disposed.
+
+23:15:50 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:50 [Debug] () The temp data cookie ".AspNetCore.Mvc.CookieTempDataProvider" was not found.
+
+23:15:50 [Debug] () User with username viktor successfully logged in! Customer user
+
+23:15:50 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 901.4554ms.
+
+23:15:50 [Information] () Executing RedirectResult, redirecting to "/product/products".
+
+23:15:50 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" in 1007.9863ms
+
+23:15:50 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:15:50 [Debug] () '"LamazonDbContext"' disposed.
+
+23:15:50 [Information] () Request finished in 1043.5579ms 302 
+
+23:15:50 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/product/products  
+
+23:15:50 [Debug] () The request path "/product/products" does not match a supported file type
+
+23:15:50 [Debug] () AuthenticationScheme: "Identity.Application" was successfully authenticated.
+
+23:15:50 [Debug] () The request path "" does not match the path filter
+
+23:15:50 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:15:50 [Information] () Route matched with "{action = \"Products\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Products()" on controller "Asp.NetWebApi.LamazonApp.Controllers.ProductController" ("Asp.NetWebApi.LamazonApp").
+
+23:15:50 [Debug] () Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+
+23:15:50 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:15:50 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:15:50 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:15:50 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:15:51 [Information] () Authorization was successful.
+
+23:15:51 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.ProductController.Products (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:15:51 [Information] () Fetching all products sturted
+
+23:15:51 [Information] () Entity Framework Core "2.1.14-servicing-32113" initialized '"LamazonDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:15:51 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:51 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:51 [Debug] () Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]"
+
+23:15:51 [Information] () Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]"
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:15:51 [Debug] () A data reader was disposed.
+
+23:15:51 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:51 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:15:51 [Information] () Time for fetching all products: 8ms
+
+23:15:51 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.ProductController.Products (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 11.2056ms.
+
+23:15:51 [Debug] () View lookup cache miss for view '"Products"' in controller '"Product"'.
+
+23:15:51 [Debug] () Using precompiled view for '"/Views/Product/Products.cshtml"'.
+
+23:15:51 [Information] () Executing ViewResult, running view "Products".
+
+23:15:51 [Debug] () The view path '"/Views/Product/Products.cshtml"' was found in 42.4759ms.
+
+23:15:51 [Debug] () View lookup cache miss for view '"_Layout"' in controller '"Product"'.
+
+23:15:51 [Debug] () Using precompiled view for '"/Views/Shared/_Layout.cshtml"'.
+
+23:15:51 [Debug] () View lookup cache miss for view '"_CookieConsentPartial"' in controller '"Product"'.
+
+23:15:51 [Debug] () Using precompiled view for '"/Views/Shared/_CookieConsentPartial.cshtml"'.
+
+23:15:51 [Debug] () Executing view component "NToastNotify.NToastNotifyViewComponent" with arguments ([]).
+
+23:15:51 [Debug] () Executed view component "NToastNotify.NToastNotifyViewComponent" in 22.8332ms and returned "Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult"
+
+23:15:51 [Debug] () View lookup cache miss for view '"Components/NToastNotify/Default"' in controller '"Product"'.
+
+23:15:51 [Debug] () Using precompiled view for '"/Views/Shared/Components/NToastNotify/Default.cshtml"'.
+
+23:15:51 [Information] () Executed ViewResult - view "Products" executed in 92.6778ms.
+
+23:15:51 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.ProductController.Products (Asp.NetWebApi.LamazonApp)" in 130.3347ms
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:15:51 [Debug] () '"LamazonDbContext"' disposed.
+
+23:15:51 [Information] () Request finished in 151.5421ms 200 text/html; charset=utf-8
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/css/bootstrap.css  
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IC"" started.
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2ID"" started.
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/site.css  
+
+23:15:51 [Information] () Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\site.css"'
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/not-found.css  
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IE"" started.
+
+23:15:51 [Information] () Request finished in 11.1691ms 200 text/css
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IF"" started.
+
+23:15:51 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/js/bootstrap.js  
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 27.2292ms 200 text/css
+
+23:15:51 [Information] () Sending file. Request path: '"/css/not-found.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\not-found.css"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 7.7327ms 200 text/css
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-1.png  
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-2.png  
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/NToastNotify/js/dist/toastr.js?v=201806071014  
+
+23:15:51 [Debug] () The request path "/NToastNotify/js/dist/toastr.js" does not match an existing file
+
+23:15:51 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IG"" started.
+
+23:15:51 [Information] () Sending file. Request path: '"/js/dist/toastr.js"'. Physical path: '"N/A"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 7.7186ms 200 application/javascript
+
+23:15:51 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/jquery/dist/jquery.js  
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 23.8517ms 200 application/javascript
+
+23:15:51 [Information] () Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\js\site.js"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 21.2926ms 200 application/javascript
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-4.png  
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-3.png  
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-2.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-2.png"'
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-4.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-4.png"'
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-1.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-1.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 23.2759ms 200 image/png
+
+23:15:51 [Information] () Request finished in 2.3447ms 200 image/png
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 23.353ms 200 image/png
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-3.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-3.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 3.3722ms 200 image/png
+
+23:15:51 [Information] () Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\jquery\dist\jquery.js"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 17.202ms 200 application/javascript
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-5.png  
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-5.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-5.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 13.0508ms 200 image/png
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-7.png  
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-6.png  
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-8.png  
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-9.png  
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-10.png  
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-6.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-6.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 34.1596ms 200 image/png
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-12.png  
+
+23:15:51 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-11.png  
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-10.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-10.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 38.553ms 200 image/png
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-12.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-12.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 18.4676ms 200 image/png
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-8.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-8.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 118.6571ms 200 image/png
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-7.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-7.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 155.0927ms 200 image/png
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-11.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-11.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 109.6164ms 200 image/png
+
+23:15:51 [Information] () Sending file. Request path: '"/images/Products/product-9.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-9.png"'
+
+23:15:51 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:15:51 [Information] () Request finished in 150.2994ms 200 image/png
+
+23:16:03 [Information] () Request starting HTTP/1.1 POST http://localhost:58251/Order/AddProduct?productId=3  0
+
+23:16:03 [Debug] () "POST" requests are not supported
+
+23:16:03 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:16:03 [Debug] () "POST" requests are not supported
+
+23:16:03 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:16:03 [Information] () Route matched with "{action = \"AddProduct\", controller = \"Order\"}". Executing controller action with signature "Int32 AddProduct(Int32)" on controller "Asp.NetWebApi.LamazonApp.Controllers.OrderController" ("Asp.NetWebApi.LamazonApp").
+
+23:16:03 [Debug] () Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter", "Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+
+23:16:03 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:03 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:16:03 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:16:03 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:03 [Information] () Authorization failed.
+
+23:16:03 [Information] () Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+
+23:16:03 [Information] () Executing ChallengeResult with authentication schemes ([]).
+
+23:16:03 [Information] () AuthenticationScheme: "Identity.Application" was challenged.
+
+23:16:03 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.OrderController.AddProduct (Asp.NetWebApi.LamazonApp)" in 17.3276ms
+
+23:16:03 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:16:03 [Information] () Request finished in 25.1788ms 302 
+
+23:16:03 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/User/Login?ReturnUrl=%2FOrder%2FAddProduct%3FproductId%3D3  
+
+23:16:03 [Debug] () The request path "/User/Login" does not match a supported file type
+
+23:16:03 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:16:03 [Debug] () The request path "" does not match the path filter
+
+23:16:03 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:16:03 [Debug] () Action '"Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)"' with id '"809d3593-faee-475c-91da-632bd39bbef7"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+
+23:16:03 [Information] () Route matched with "{action = \"LogIn\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogIn()" on controller "Asp.NetWebApi.LamazonApp.Controllers.UserController" ("Asp.NetWebApi.LamazonApp").
+
+23:16:03 [Debug] () Execution plan of "authorization" filters (in the following order): ["None"]
+
+23:16:03 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:03 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:16:03 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:16:03 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:03 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:16:03 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0166ms.
+
+23:16:03 [Debug] () View lookup cache hit for view '"LogIn"' in controller '"User"'.
+
+23:16:03 [Information] () Executing ViewResult, running view "LogIn".
+
+23:16:03 [Debug] () The view path '"/Views/User/LogIn.cshtml"' was found in 0.2873ms.
+
+23:16:03 [Debug] () An antiforgery cookie token was reused.
+
+23:16:03 [Debug] () View lookup cache hit for view '"_Layout"' in controller '"User"'.
+
+23:16:03 [Debug] () View lookup cache hit for view '"_CookieConsentPartial"' in controller '"User"'.
+
+23:16:03 [Debug] () Executing view component "NToastNotify.NToastNotifyViewComponent" with arguments ([]).
+
+23:16:03 [Debug] () Executed view component "NToastNotify.NToastNotifyViewComponent" in 0.4374ms and returned "Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult"
+
+23:16:03 [Debug] () View lookup cache hit for view '"Components/NToastNotify/Default"' in controller '"User"'.
+
+23:16:03 [Information] () Executed ViewResult - view "LogIn" executed in 4.6898ms.
+
+23:16:03 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" in 5.2828ms
+
+23:16:03 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:16:03 [Information] () Request finished in 7.2615ms 200 text/html; charset=utf-8
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/Order/ListOrders  
+
+23:16:13 [Debug] () The request path "/Order/ListOrders" does not match a supported file type
+
+23:16:13 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:16:13 [Debug] () The request path "" does not match the path filter
+
+23:16:13 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:16:13 [Information] () Route matched with "{action = \"ListOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ListOrders()" on controller "Asp.NetWebApi.LamazonApp.Controllers.OrderController" ("Asp.NetWebApi.LamazonApp").
+
+23:16:13 [Debug] () Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter", "Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+
+23:16:13 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:13 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:16:13 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:16:13 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:13 [Information] () Authorization failed.
+
+23:16:13 [Information] () Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+
+23:16:13 [Information] () Executing ChallengeResult with authentication schemes ([]).
+
+23:16:13 [Information] () AuthenticationScheme: "Identity.Application" was challenged.
+
+23:16:13 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.OrderController.ListOrders (Asp.NetWebApi.LamazonApp)" in 0.9755ms
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:16:13 [Information] () Request finished in 6.2212ms 302 
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/User/Login?ReturnUrl=%2FOrder%2FListOrders  
+
+23:16:13 [Debug] () The request path "/User/Login" does not match a supported file type
+
+23:16:13 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:16:13 [Debug] () The request path "" does not match the path filter
+
+23:16:13 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:16:13 [Debug] () Action '"Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)"' with id '"809d3593-faee-475c-91da-632bd39bbef7"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+
+23:16:13 [Information] () Route matched with "{action = \"LogIn\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogIn()" on controller "Asp.NetWebApi.LamazonApp.Controllers.UserController" ("Asp.NetWebApi.LamazonApp").
+
+23:16:13 [Debug] () Execution plan of "authorization" filters (in the following order): ["None"]
+
+23:16:13 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:13 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:16:13 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:16:13 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:13 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:16:13 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0239ms.
+
+23:16:13 [Debug] () View lookup cache hit for view '"LogIn"' in controller '"User"'.
+
+23:16:13 [Information] () Executing ViewResult, running view "LogIn".
+
+23:16:13 [Debug] () The view path '"/Views/User/LogIn.cshtml"' was found in 0.1931ms.
+
+23:16:13 [Debug] () An antiforgery cookie token was reused.
+
+23:16:13 [Debug] () View lookup cache hit for view '"_Layout"' in controller '"User"'.
+
+23:16:13 [Debug] () View lookup cache hit for view '"_CookieConsentPartial"' in controller '"User"'.
+
+23:16:13 [Debug] () Executing view component "NToastNotify.NToastNotifyViewComponent" with arguments ([]).
+
+23:16:13 [Debug] () Executed view component "NToastNotify.NToastNotifyViewComponent" in 0.2589ms and returned "Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult"
+
+23:16:13 [Debug] () View lookup cache hit for view '"Components/NToastNotify/Default"' in controller '"User"'.
+
+23:16:13 [Information] () Executed ViewResult - view "LogIn" executed in 2.8868ms.
+
+23:16:13 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" in 3.6407ms
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:16:13 [Information] () Request finished in 5.5274ms 200 text/html; charset=utf-8
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/css/bootstrap.css  
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/site.css  
+
+23:16:13 [Information] () Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\site.css"'
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:16:13 [Information] () Request finished in 3.673ms 200 text/css
+
+23:16:13 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:16:13 [Information] () Request finished in 5.5358ms 200 text/css
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/not-found.css  
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/js/bootstrap.js  
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/jquery/dist/jquery.js  
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+
+23:16:13 [Information] () Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\js\site.js"'
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:16:13 [Information] () Request finished in 12.3212ms 200 application/javascript
+
+23:16:13 [Information] () Sending file. Request path: '"/css/not-found.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\not-found.css"'
+
+23:16:13 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:16:13 [Information] () Request finished in 15.8364ms 200 application/javascript
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/NToastNotify/js/dist/toastr.js?v=201806071014  
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:16:13 [Debug] () The request path "/NToastNotify/js/dist/toastr.js" does not match an existing file
+
+23:16:13 [Information] () Request finished in 32.5459ms 200 text/css
+
+23:16:13 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:16:13 [Information] () Sending file. Request path: '"/js/dist/toastr.js"'. Physical path: '"N/A"'
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:16:13 [Information] () Request finished in 16.9283ms 200 application/javascript
+
+23:16:13 [Information] () Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\jquery\dist\jquery.js"'
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:16:13 [Information] () Request finished in 34.9232ms 200 application/javascript
+
+23:16:13 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+
+23:16:13 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"'
+
+23:16:13 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:16:13 [Information] () Request finished in 7.3553ms 200 font/woff2
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/product/products  
+
+23:16:19 [Debug] () The request path "/product/products" does not match a supported file type
+
+23:16:19 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:16:19 [Debug] () The request path "" does not match the path filter
+
+23:16:19 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:16:19 [Information] () Route matched with "{action = \"Products\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Products()" on controller "Asp.NetWebApi.LamazonApp.Controllers.ProductController" ("Asp.NetWebApi.LamazonApp").
+
+23:16:19 [Debug] () Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+
+23:16:19 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:19 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:16:19 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:16:19 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:19 [Information] () Authorization failed.
+
+23:16:19 [Information] () Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+
+23:16:19 [Information] () Executing ChallengeResult with authentication schemes ([]).
+
+23:16:19 [Information] () AuthenticationScheme: "Identity.Application" was challenged.
+
+23:16:19 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.ProductController.Products (Asp.NetWebApi.LamazonApp)" in 0.3532ms
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:16:19 [Information] () Request finished in 2.1623ms 302 
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/User/Login?ReturnUrl=%2Fproduct%2Fproducts  
+
+23:16:19 [Debug] () The request path "/User/Login" does not match a supported file type
+
+23:16:19 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:16:19 [Debug] () The request path "" does not match the path filter
+
+23:16:19 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:16:19 [Debug] () Action '"Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)"' with id '"809d3593-faee-475c-91da-632bd39bbef7"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+
+23:16:19 [Information] () Route matched with "{action = \"LogIn\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogIn()" on controller "Asp.NetWebApi.LamazonApp.Controllers.UserController" ("Asp.NetWebApi.LamazonApp").
+
+23:16:19 [Debug] () Execution plan of "authorization" filters (in the following order): ["None"]
+
+23:16:19 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:19 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:16:19 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:16:19 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:19 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:16:19 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0517ms.
+
+23:16:19 [Debug] () View lookup cache hit for view '"LogIn"' in controller '"User"'.
+
+23:16:19 [Information] () Executing ViewResult, running view "LogIn".
+
+23:16:19 [Debug] () The view path '"/Views/User/LogIn.cshtml"' was found in 0.2206ms.
+
+23:16:19 [Debug] () An antiforgery cookie token was reused.
+
+23:16:19 [Debug] () View lookup cache hit for view '"_Layout"' in controller '"User"'.
+
+23:16:19 [Debug] () View lookup cache hit for view '"_CookieConsentPartial"' in controller '"User"'.
+
+23:16:19 [Debug] () Executing view component "NToastNotify.NToastNotifyViewComponent" with arguments ([]).
+
+23:16:19 [Debug] () Executed view component "NToastNotify.NToastNotifyViewComponent" in 0.2796ms and returned "Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult"
+
+23:16:19 [Debug] () View lookup cache hit for view '"Components/NToastNotify/Default"' in controller '"User"'.
+
+23:16:19 [Information] () Executed ViewResult - view "LogIn" executed in 3.6149ms.
+
+23:16:19 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" in 4.4066ms
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:16:19 [Information] () Request finished in 6.6539ms 200 text/html; charset=utf-8
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/css/bootstrap.css  
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/jquery/dist/jquery.js  
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/not-found.css  
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/site.css  
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/js/bootstrap.js  
+
+23:16:19 [Information] () Sending file. Request path: '"/css/not-found.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\not-found.css"'
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:16:19 [Information] () Request finished in 2.9864ms 200 text/css
+
+23:16:19 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:16:19 [Information] () Request finished in 17.8956ms 200 application/javascript
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/NToastNotify/js/dist/toastr.js?v=201806071014  
+
+23:16:19 [Debug] () The request path "/NToastNotify/js/dist/toastr.js" does not match an existing file
+
+23:16:19 [Information] () Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\js\site.js"'
+
+23:16:19 [Information] () Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\site.css"'
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:16:19 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:16:19 [Information] () Request finished in 45.2346ms 200 application/javascript
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:16:19 [Information] () Request finished in 46.3233ms 200 text/css
+
+23:16:19 [Information] () Sending file. Request path: '"/js/dist/toastr.js"'. Physical path: '"N/A"'
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:16:19 [Information] () Request finished in 24.1004ms 200 application/javascript
+
+23:16:19 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:16:19 [Information] () Request finished in 59.3872ms 200 text/css
+
+23:16:19 [Information] () Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\jquery\dist\jquery.js"'
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:16:19 [Information] () Request finished in 49.94ms 200 application/javascript
+
+23:16:19 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+
+23:16:19 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"'
+
+23:16:19 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:16:19 [Information] () Request finished in 2.4734ms 200 font/woff2
+
+23:16:43 [Information] () Request starting HTTP/1.1 POST http://localhost:58251/User/Login application/x-www-form-urlencoded 220
+
+23:16:43 [Debug] () "POST" requests are not supported
+
+23:16:43 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:16:43 [Debug] () "POST" requests are not supported
+
+23:16:43 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:16:43 [Information] () Route matched with "{action = \"LogIn\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogIn(SEDC.Lamazon.WebModels.ViewModels.LoginVM)" on controller "Asp.NetWebApi.LamazonApp.Controllers.UserController" ("Asp.NetWebApi.LamazonApp").
+
+23:16:43 [Debug] () Execution plan of "authorization" filters (in the following order): ["None"]
+
+23:16:43 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:43 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:16:43 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:16:43 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IB"", Request id ""0HM4DK6NHA2IB:00000009"": started reading request body.
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IB"", Request id ""0HM4DK6NHA2IB:00000009"": done reading request body.
+
+23:16:43 [Debug] () Attempting to bind parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"' ...
+
+23:16:43 [Debug] () Attempting to bind parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"' using the name '""' in request data ...
+
+23:16:43 [Debug] () Attempting to bind property '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"."UserName"' of type '"System.String"' using the name '"UserName"' in request data ...
+
+23:16:43 [Debug] () Done attempting to bind property '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"."UserName"' of type '"System.String"'.
+
+23:16:43 [Debug] () Attempting to bind property '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"."Password"' of type '"System.String"' using the name '"Password"' in request data ...
+
+23:16:43 [Debug] () Done attempting to bind property '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"."Password"' of type '"System.String"'.
+
+23:16:43 [Debug] () Done attempting to bind parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"'.
+
+23:16:43 [Debug] () Done attempting to bind parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"'.
+
+23:16:43 [Debug] () Attempting to validate the bound parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"' ...
+
+23:16:43 [Debug] () Done attempting to validate the bound parameter '"model"' of type '"SEDC.Lamazon.WebModels.ViewModels.LoginVM"'.
+
+23:16:43 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:16:43 [Debug] () Authenticathing user with username viktor
+
+23:16:43 [Information] () Entity Framework Core "2.1.14-servicing-32113" initialized '"LamazonDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:16:43 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Executing DbCommand [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+
+23:16:43 [Information] () Executed DbCommand ("6"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0"
+
+23:16:43 [Debug] () A data reader was disposed.
+
+23:16:43 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Context '"User"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Executing DbCommand [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0"
+
+23:16:43 [Information] () Executed DbCommand ("4"ms) [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0"
+
+23:16:43 [Debug] () A data reader was disposed.
+
+23:16:43 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0"
+
+23:16:43 [Information] () Executed DbCommand ("6"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0"
+
+23:16:43 [Debug] () A data reader was disposed.
+
+23:16:43 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0"
+
+23:16:43 [Information] () Executed DbCommand ("4"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0"
+
+23:16:43 [Debug] () A data reader was disposed.
+
+23:16:43 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Context '"IdentityRole"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Executing DbCommand [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0"
+
+23:16:43 [Information] () Executed DbCommand ("3"ms) [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0"
+
+23:16:43 [Debug] () A data reader was disposed.
+
+23:16:43 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Information] () AuthenticationScheme: "Identity.Application" signed in.
+
+23:16:43 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Executing DbCommand [Parameters=["@__userName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [x].[Id], [x].[AccessFailedCount], [x].[ConcurrencyStamp], [x].[Email], [x].[EmailConfirmed], [x].[FullName], [x].[LockoutEnabled], [x].[LockoutEnd], [x].[NormalizedEmail], [x].[NormalizedUserName], [x].[PasswordHash], [x].[PhoneNumber], [x].[PhoneNumberConfirmed], [x].[SecurityStamp], [x].[TwoFactorEnabled], [x].[UserName]
+FROM [AspNetUsers] AS [x]
+WHERE [x].[UserName] = @__userName_0"
+
+23:16:43 [Information] () Executed DbCommand ("3"ms) [Parameters=["@__userName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [x].[Id], [x].[AccessFailedCount], [x].[ConcurrencyStamp], [x].[Email], [x].[EmailConfirmed], [x].[FullName], [x].[LockoutEnabled], [x].[LockoutEnd], [x].[NormalizedEmail], [x].[NormalizedUserName], [x].[PasswordHash], [x].[PhoneNumber], [x].[PhoneNumberConfirmed], [x].[SecurityStamp], [x].[TwoFactorEnabled], [x].[UserName]
+FROM [AspNetUsers] AS [x]
+WHERE [x].[UserName] = @__userName_0"
+
+23:16:43 [Debug] () A data reader was disposed.
+
+23:16:43 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Executing DbCommand [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0"
+
+23:16:43 [Information] () Executed DbCommand ("4"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0"
+
+23:16:43 [Debug] () A data reader was disposed.
+
+23:16:43 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Context '"IdentityRole"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Executing DbCommand [Parameters=["@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)"
+
+23:16:43 [Information] () Executed DbCommand ("2"ms) [Parameters=["@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)"
+
+23:16:43 [Debug] () A data reader was disposed.
+
+23:16:43 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () User with username viktor successfully logged in! Customer user
+
+23:16:43 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 59.4122ms.
+
+23:16:43 [Information] () Executing RedirectResult, redirecting to "/product/products".
+
+23:16:43 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" in 62.3736ms
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:16:43 [Debug] () '"LamazonDbContext"' disposed.
+
+23:16:43 [Information] () Request finished in 65.575ms 302 
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/product/products  
+
+23:16:43 [Debug] () The request path "/product/products" does not match a supported file type
+
+23:16:43 [Debug] () AuthenticationScheme: "Identity.Application" was successfully authenticated.
+
+23:16:43 [Debug] () The request path "" does not match the path filter
+
+23:16:43 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:16:43 [Information] () Route matched with "{action = \"Products\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Products()" on controller "Asp.NetWebApi.LamazonApp.Controllers.ProductController" ("Asp.NetWebApi.LamazonApp").
+
+23:16:43 [Debug] () Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+
+23:16:43 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:43 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:16:43 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:16:43 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:16:43 [Information] () Authorization was successful.
+
+23:16:43 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.ProductController.Products (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:16:43 [Information] () Fetching all products sturted
+
+23:16:43 [Information] () Entity Framework Core "2.1.14-servicing-32113" initialized '"LamazonDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+23:16:43 [Debug] () Opening connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Opened connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]"
+
+23:16:43 [Information] () Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]"
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () Context '"Product"' started tracking '"LamazonDbContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+
+23:16:43 [Debug] () A data reader was disposed.
+
+23:16:43 [Debug] () Closing connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Debug] () Closed connection to database '"DbLamazonPro"' on server '".\SQLExpress"'.
+
+23:16:43 [Information] () Time for fetching all products: 6ms
+
+23:16:43 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.ProductController.Products (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 6.345ms.
+
+23:16:43 [Debug] () View lookup cache hit for view '"Products"' in controller '"Product"'.
+
+23:16:43 [Information] () Executing ViewResult, running view "Products".
+
+23:16:43 [Debug] () The view path '"/Views/Product/Products.cshtml"' was found in 0.2821ms.
+
+23:16:43 [Debug] () View lookup cache hit for view '"_Layout"' in controller '"Product"'.
+
+23:16:43 [Debug] () View lookup cache hit for view '"_CookieConsentPartial"' in controller '"Product"'.
+
+23:16:43 [Debug] () Executing view component "NToastNotify.NToastNotifyViewComponent" with arguments ([]).
+
+23:16:43 [Debug] () Executed view component "NToastNotify.NToastNotifyViewComponent" in 0.6002ms and returned "Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult"
+
+23:16:43 [Debug] () View lookup cache hit for view '"Components/NToastNotify/Default"' in controller '"Product"'.
+
+23:16:43 [Information] () Executed ViewResult - view "Products" executed in 4.0345ms.
+
+23:16:43 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.ProductController.Products (Asp.NetWebApi.LamazonApp)" in 11.1428ms
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:16:43 [Debug] () '"LamazonDbContext"' disposed.
+
+23:16:43 [Information] () Request finished in 14.4149ms 200 text/html; charset=utf-8
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/site.css  
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/css/bootstrap.css  
+
+23:16:43 [Information] () Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\site.css"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 6.9965ms 200 text/css
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/not-found.css  
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/jquery/dist/jquery.js  
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/js/bootstrap.js  
+
+23:16:43 [Information] () Sending file. Request path: '"/css/not-found.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\not-found.css"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 17.4387ms 200 text/css
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-1.png  
+
+23:16:43 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 82.558ms 200 application/javascript
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/NToastNotify/js/dist/toastr.js?v=201806071014  
+
+23:16:43 [Debug] () The request path "/NToastNotify/js/dist/toastr.js" does not match an existing file
+
+23:16:43 [Information] () Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\js\site.js"'
+
+23:16:43 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-3.png  
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 110.6466ms 200 application/javascript
+
+23:16:43 [Information] () Request finished in 117.4778ms 200 text/css
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-2.png  
+
+23:16:43 [Debug] () AuthenticationScheme: "Identity.Application" was successfully authenticated.
+
+23:16:43 [Information] () Sending file. Request path: '"/js/dist/toastr.js"'. Physical path: '"N/A"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 38.9063ms 200 application/javascript
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-3.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-3.png"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 5.6248ms 200 image/png
+
+23:16:43 [Information] () Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\jquery\dist\jquery.js"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 117.8323ms 200 application/javascript
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-4.png  
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-2.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-2.png"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 22.4343ms 200 image/png
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-4.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-4.png"'
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-5.png  
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-6.png  
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-1.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-1.png"'
+
+23:16:43 [Information] () Request finished in 10.5834ms 200 image/png
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 63.3162ms 200 image/png
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-6.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-6.png"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 5.4182ms 200 image/png
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-5.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-5.png"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 16.066ms 200 image/png
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-7.png  
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-8.png  
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-7.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-7.png"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 36.5287ms 200 image/png
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-9.png  
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-11.png  
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-8.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-8.png"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 43.0213ms 200 image/png
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-10.png  
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-11.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-11.png"'
+
+23:16:43 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/images/Products/product-12.png  
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 12.2462ms 200 image/png
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-12.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-12.png"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 42.2828ms 200 image/png
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-10.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-10.png"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 66.4815ms 200 image/png
+
+23:16:43 [Information] () Sending file. Request path: '"/images/Products/product-9.png"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\images\Products\product-9.png"'
+
+23:16:43 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:16:43 [Information] () Request finished in 107.0632ms 200 image/png
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/Order/Order  
+
+23:17:01 [Debug] () The request path "/Order/Order" does not match a supported file type
+
+23:17:01 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:17:01 [Debug] () The request path "" does not match the path filter
+
+23:17:01 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:17:01 [Information] () Route matched with "{action = \"Order\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Order()" on controller "Asp.NetWebApi.LamazonApp.Controllers.OrderController" ("Asp.NetWebApi.LamazonApp").
+
+23:17:01 [Debug] () Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter", "Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+
+23:17:01 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:17:01 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:17:01 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:17:01 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:17:01 [Information] () Authorization failed.
+
+23:17:01 [Information] () Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+
+23:17:01 [Information] () Executing ChallengeResult with authentication schemes ([]).
+
+23:17:01 [Information] () AuthenticationScheme: "Identity.Application" was challenged.
+
+23:17:01 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.OrderController.Order (Asp.NetWebApi.LamazonApp)" in 0.6608ms
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:17:01 [Information] () Request finished in 6.6446ms 302 
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/User/Login?ReturnUrl=%2FOrder%2FOrder  
+
+23:17:01 [Debug] () The request path "/User/Login" does not match a supported file type
+
+23:17:01 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:17:01 [Debug] () The request path "" does not match the path filter
+
+23:17:01 [Debug] () Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+
+23:17:01 [Debug] () Action '"Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)"' with id '"809d3593-faee-475c-91da-632bd39bbef7"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+
+23:17:01 [Information] () Route matched with "{action = \"LogIn\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogIn()" on controller "Asp.NetWebApi.LamazonApp.Controllers.UserController" ("Asp.NetWebApi.LamazonApp").
+
+23:17:01 [Debug] () Execution plan of "authorization" filters (in the following order): ["None"]
+
+23:17:01 [Debug] () Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:17:01 [Debug] () Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+
+23:17:01 [Debug] () Execution plan of "exception" filters (in the following order): ["None"]
+
+23:17:01 [Debug] () Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+
+23:17:01 [Information] () Executing action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" - Validation state: Valid
+
+23:17:01 [Information] () Executed action method "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0297ms.
+
+23:17:01 [Debug] () View lookup cache hit for view '"LogIn"' in controller '"User"'.
+
+23:17:01 [Information] () Executing ViewResult, running view "LogIn".
+
+23:17:01 [Debug] () The view path '"/Views/User/LogIn.cshtml"' was found in 0.2662ms.
+
+23:17:01 [Debug] () An antiforgery cookie token was reused.
+
+23:17:01 [Debug] () View lookup cache hit for view '"_Layout"' in controller '"User"'.
+
+23:17:01 [Debug] () View lookup cache hit for view '"_CookieConsentPartial"' in controller '"User"'.
+
+23:17:01 [Debug] () Executing view component "NToastNotify.NToastNotifyViewComponent" with arguments ([]).
+
+23:17:01 [Debug] () Executed view component "NToastNotify.NToastNotifyViewComponent" in 0.3595ms and returned "Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult"
+
+23:17:01 [Debug] () View lookup cache hit for view '"Components/NToastNotify/Default"' in controller '"User"'.
+
+23:17:01 [Information] () Executed ViewResult - view "LogIn" executed in 3.1176ms.
+
+23:17:01 [Information] () Executed action "Asp.NetWebApi.LamazonApp.Controllers.UserController.LogIn (Asp.NetWebApi.LamazonApp)" in 3.8245ms
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:17:01 [Information] () Request finished in 5.9809ms 200 text/html; charset=utf-8
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/css/bootstrap.css  
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/site.css  
+
+23:17:01 [Information] () Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\site.css"'
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:17:01 [Information] () Request finished in 8.1974ms 200 text/css
+
+23:17:01 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:17:01 [Information] () Request finished in 8.6217ms 200 text/css
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/js/bootstrap.js  
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/css/not-found.css  
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+
+23:17:01 [Information] () Sending file. Request path: '"/css/not-found.css"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\css\not-found.css"'
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2IC"" completed keep alive response.
+
+23:17:01 [Information] () Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\js\site.js"'
+
+23:17:01 [Information] () Request finished in 14.5508ms 200 text/css
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2IG"" completed keep alive response.
+
+23:17:01 [Information] () Request finished in 14.6957ms 200 application/javascript
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/NToastNotify/js/dist/toastr.js?v=201806071014  
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/jquery/dist/jquery.js  
+
+23:17:01 [Debug] () The request path "/NToastNotify/js/dist/toastr.js" does not match an existing file
+
+23:17:01 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2IB"" completed keep alive response.
+
+23:17:01 [Information] () "Identity.Application" was not authenticated. Failure message: "Ticket expired"
+
+23:17:01 [Information] () Request finished in 15.5882ms 200 application/javascript
+
+23:17:01 [Information] () Sending file. Request path: '"/js/dist/toastr.js"'. Physical path: '"N/A"'
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2ID"" completed keep alive response.
+
+23:17:01 [Information] () Request finished in 1.0895ms 200 application/javascript
+
+23:17:01 [Information] () Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\jquery\dist\jquery.js"'
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2IF"" completed keep alive response.
+
+23:17:01 [Information] () Request finished in 7.3985ms 200 application/javascript
+
+23:17:01 [Information] () Request starting HTTP/1.1 GET http://localhost:58251/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+
+23:17:01 [Information] () Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"'
+
+23:17:01 [Debug] () Connection id ""0HM4DK6NHA2IE"" completed keep alive response.
+
+23:17:01 [Information] () Request finished in 19.1561ms 200 font/woff2

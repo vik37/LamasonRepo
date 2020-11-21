@@ -85,7 +85,7 @@ using SEDC.Lamazon.WebModels.Enum;
             WriteLiteral("        <div class=\"thumbnail\">\r\n            ");
             EndContext();
             BeginContext(204, 99, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "18adcf75fb7a4fa48b018f2d36f5c050", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d40baeeb59e544498e94aa4329e7ac40", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

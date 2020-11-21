@@ -44,6 +44,7 @@ namespace Asp.NetWebApi.LamazonApp
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<IInvoiceService, InvoiceService>();
 
             services.AddAutoMapper();
 

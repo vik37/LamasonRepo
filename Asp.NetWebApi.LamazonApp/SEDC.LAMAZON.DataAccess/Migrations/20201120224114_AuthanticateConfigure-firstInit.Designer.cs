@@ -10,8 +10,8 @@ using SEDC.LAMAZON.DataAccess;
 namespace SEDC.LAMAZON.DataAccess.Migrations
 {
     [DbContext(typeof(LamazonDbContext))]
-    [Migration("20201116154842_addingInvoice")]
-    partial class addingInvoice
+    [Migration("20201120224114_AuthanticateConfigure-firstInit")]
+    partial class AuthanticateConfigurefirstInit
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -45,8 +45,8 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
                     b.ToTable("AspNetRoles");
 
                     b.HasData(
-                        new { Id = "8a76381e-0166-447f-a9dd-c5d8a4b44d86", ConcurrencyStamp = "507b9b56-758d-4b69-8830-2303d883ec4f", Name = "admin", NormalizedName = "ADMIN" },
-                        new { Id = "e80da792-01d8-47b2-a7c2-912b28d47eba", ConcurrencyStamp = "737f50db-97a7-45ec-8749-8deeefd9b63c", Name = "user", NormalizedName = "USER" }
+                        new { Id = "5fe678db-dda3-4439-96f2-1b752c43d172", ConcurrencyStamp = "16a63c99-8e72-4ac8-ae0f-a6380cc5538e", Name = "admin", NormalizedName = "ADMIN" },
+                        new { Id = "b0299566-dabb-4a30-b50b-778dd558d5d3", ConcurrencyStamp = "5b6e6cab-49da-4ef0-aa42-d794730e8be1", Name = "user", NormalizedName = "USER" }
                     );
                 });
 
@@ -121,7 +121,7 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
                     b.ToTable("AspNetUserRoles");
 
                     b.HasData(
-                        new { UserId = "8a7de4ea-5f7b-4800-b916-1553ed407196", RoleId = "8a76381e-0166-447f-a9dd-c5d8a4b44d86" }
+                        new { UserId = "2233057a-6a74-4ff6-a2b3-436ccb719249", RoleId = "5fe678db-dda3-4439-96f2-1b752c43d172" }
                     );
                 });
 
@@ -150,11 +150,16 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
 
                     b.Property<int>("CardNumber");
 
+                    b.Property<int>("OrderId");
+
                     b.Property<int>("PaymentType");
 
                     b.Property<int>("SumOfPrice");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("OrderId")
+                        .IsUnique();
 
                     b.ToTable("Invoice");
                 });
@@ -167,8 +172,6 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
 
                     b.Property<DateTime>("DateOfOrder");
 
-                    b.Property<int>("InvoiceId");
-
                     b.Property<bool>("IsPaid");
 
                     b.Property<int>("Status");
@@ -176,8 +179,6 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
                     b.Property<string>("UserId");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("InvoiceId");
 
                     b.HasIndex("UserId");
 
@@ -290,7 +291,7 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
                     b.ToTable("AspNetUsers");
 
                     b.HasData(
-                        new { Id = "8a7de4ea-5f7b-4800-b916-1553ed407196", AccessFailedCount = 0, ConcurrencyStamp = "6377c048-97ff-4412-ad76-b3cf36bfacc8", Email = "lamazon@supply.com", EmailConfirmed = true, LockoutEnabled = false, NormalizedEmail = "lamazon@supply.com", NormalizedUserName = "ADMIN", PasswordHash = "AQAAAAEAACcQAAAAEC7sH2RlMxYoSjvRvTEUtMXbkm42Lt1pyj4lv0xwAVgeRL2pyoQq8+NjGKhElAxzHA==", PhoneNumberConfirmed = false, SecurityStamp = "", TwoFactorEnabled = false, UserName = "admin" }
+                        new { Id = "2233057a-6a74-4ff6-a2b3-436ccb719249", AccessFailedCount = 0, ConcurrencyStamp = "4120d545-9f60-497d-a46d-0ab71134e468", Email = "lamazon@supply.com", EmailConfirmed = true, LockoutEnabled = false, NormalizedEmail = "lamazon@supply.com", NormalizedUserName = "ADMIN", PasswordHash = "AQAAAAEAACcQAAAAEIhnnW0d3D+KZnTuZNc8EAaV95ypUsokTWbL1+F5/ygo0apiPxvRSNRIJFA+kgXBpw==", PhoneNumberConfirmed = false, SecurityStamp = "", TwoFactorEnabled = false, UserName = "admin" }
                     );
                 });
 
@@ -339,13 +340,16 @@ namespace SEDC.LAMAZON.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
+            modelBuilder.Entity("SEDC.Lamazon.Domain.DomainModels.Invoice", b =>
+                {
+                    b.HasOne("SEDC.Lamazon.Domain.DomainModels.Order", "Order")
+                        .WithOne("Invoice")
+                        .HasForeignKey("SEDC.Lamazon.Domain.DomainModels.Invoice", "OrderId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
             modelBuilder.Entity("SEDC.Lamazon.Domain.DomainModels.Order", b =>
                 {
-                    b.HasOne("SEDC.Lamazon.Domain.DomainModels.Invoice", "Invoice")
-                        .WithMany("Order")
-                        .HasForeignKey("InvoiceId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
                     b.HasOne("SEDC.Lamazon.Domain.DomainModels.User", "User")
                         .WithMany("Orders")
                         .HasForeignKey("UserId");

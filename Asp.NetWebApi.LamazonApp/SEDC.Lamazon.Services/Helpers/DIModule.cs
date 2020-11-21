@@ -19,6 +19,7 @@ namespace SEDC.Lamazon.Services.Helpers
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IRepository<Order>, OrderRepository>();
             services.AddTransient<IRepository<Product>, ProductRepository>();
+            services.AddTransient<IRepository<Invoice>,InvoiceRepository>();
 
             services.AddIdentity<User, IdentityRole>(options =>
             {

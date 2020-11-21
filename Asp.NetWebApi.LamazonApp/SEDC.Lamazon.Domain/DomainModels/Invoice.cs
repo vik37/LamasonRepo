@@ -15,7 +15,8 @@ namespace SEDC.Lamazon.Domain.DomainModels
         public string Address { get; set; }
         public int CardNumber { get; set; }
         public int SumOfPrice { get; set; }
-        public PaymentType  PaymentType { get; set; }        
-        public List<Order> Order { get; set; }
+        public PaymentType  PaymentType { get; set; }
+        public int OrderId { get; set; }
+        public Order Order { get; set; }
     }
 }

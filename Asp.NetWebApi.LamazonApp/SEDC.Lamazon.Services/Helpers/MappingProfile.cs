@@ -24,6 +24,10 @@ namespace SEDC.Lamazon.Services.Helpers
                 .ForMember(dest => dest.ProductOrders, src => src.Ignore())
                 .ForMember(dest => dest.DateOfOrder, src => src.Ignore())
                 .ForMember(dest => dest.User, src => src.Ignore());
+
+            CreateMap<Invoice, InvoiceVM>()
+                .ReverseMap()
+                .ForMember(dest => dest.CardNumber, src => src.Ignore());
         }
     }
 }

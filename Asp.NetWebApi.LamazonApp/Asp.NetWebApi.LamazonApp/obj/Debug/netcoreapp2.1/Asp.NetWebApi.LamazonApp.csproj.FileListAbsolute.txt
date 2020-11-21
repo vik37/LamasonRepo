@@ -48,3 +48,4 @@ C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.La
 C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\obj\Debug\netcoreapp2.1\Razor\Views\User\Register.cshtml.g.cs
 C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\obj\Debug\netcoreapp2.1\Razor\Views\Order\Order.cshtml.g.cs
 C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ErrorView.cshtml.g.cs
+C:\Users\vikto\source\repos\LamazonApp\Asp.NetWebApi.LamazonApp\Asp.NetWebApi.LamazonApp\obj\Debug\netcoreapp2.1\Razor\Views\Invoice\Invoice.cshtml.g.cs

@@ -18,11 +18,13 @@ namespace Asp.NetWebApi.LamazonApp.Controllers
         private readonly IOrderService _orderService;
         private readonly IUserService _userService;
         private readonly IProductService _productService;
-        public OrderController(IOrderService orderService, IUserService userService, IProductService productService)
+        private readonly IInvoiceService _invoiceService;
+        public OrderController(IOrderService orderService, IUserService userService, IProductService productService, IInvoiceService invoiceService)
         {
             _orderService = orderService;
             _userService = userService;
             _productService = productService;
+            _invoiceService = invoiceService;
         }
         [Authorize(Roles = "user")]
         public IActionResult ListOrders()

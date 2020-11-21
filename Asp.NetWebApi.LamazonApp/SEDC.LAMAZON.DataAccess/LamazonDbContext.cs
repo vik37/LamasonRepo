@@ -99,17 +99,18 @@ namespace SEDC.LAMAZON.DataAccess
             modelBuilder.Entity<Order>()
                 .HasMany(o => o.ProductOrders)
                 .WithOne(po => po.Order)
-                .HasForeignKey(po => po.OrderId);
+                .HasForeignKey(po => po.OrderId);               
 
             modelBuilder.Entity<Product>()
                 .HasMany(p => p.ProductOrders)
                 .WithOne(p => p.Product)
                 .HasForeignKey(p => p.ProductId);
 
-            modelBuilder.Entity<Invoice>()
-                .HasMany(i => i.Order)
-                .WithOne(i => i.Invoice)
-                .HasForeignKey(i => i.InvoiceId);
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Invoice)
+                .WithOne(i => i.Order)
+                .HasForeignKey<Invoice>(inv => inv.OrderId);
+
 
             Seed(modelBuilder);
 

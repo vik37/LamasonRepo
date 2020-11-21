@@ -18,7 +18,7 @@ namespace SEDC.Lamazon.Domain.DomainModels
         public string UserId { get; set; }
         public User User { get; set; }
         public List<ProductOrder> ProductOrders { get; set; }
-        public int InvoiceId { get; set; }
-        public Invoice Invoice { get; set; }
+        
+        public virtual Invoice Invoice { get; set; }
     }
 }

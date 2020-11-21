@@ -39,7 +39,7 @@ namespace SEDC.Lamazon.Services.Services
                 {
                     new Order
                     {
-                        Status = StatusType.Init
+                        Status = StatusType.Init                        
                     }
                 }
             };
